@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.eureka.Entity.CurrencyData"/>
+    <fullyQualifiedTypeName name="com.eureka.entity.CurrencyExchange"/>
+</qualifiedTypeNameHistroy>

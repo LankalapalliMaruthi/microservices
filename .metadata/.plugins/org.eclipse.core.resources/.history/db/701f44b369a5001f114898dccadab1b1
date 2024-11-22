@@ -1,0 +1,20 @@
+spring.application.name=Currency-Service
+server.port=8001
+
+
+#  for service registration and checking using eureka server
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+
+# connectin eureka server to register
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+
+#connecting database
+spring.datasource.url=jdbc\:oracle\:thin\:@localhost\:1521\:xe
+spring.datasource.username=maruthi
+spring.datasource.password=Maruthi123
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+spring.jpa.database-platform=org.hibernate.dialect.OracleDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
